@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+
+    * {
+      font-family: 'Inter';
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+    }
+
+    /* @media screen and (min-width:375px) and (max-width:1440px) {
+      .main{
+        width: 300px;
+      }
+    } */
+
+    @media (min-width:500px) {
+      .main {
+        width: 500px;
+      }
+    }
+
+    @media (min-width:375px) and (max-width:500px) {
+      .main {
+        width: 375px;
+      }
+    }
+
+    .container {
+      color: hsl(0, 0%, 100%);
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .main {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 2vh 0;
+      /* margin: 100px auto; */
+      /* height: 700px;
+      width: 500px; */
+      border-radius: 18px;
+      background-color: hsl(0, 0%, 12%);
+
+      .quote {
+        h3 {
+          color: hsl(75, 94%, 57%);
+        }
+      }
+
+      .avatar {
+        margin-top: 50px;
+
+        img {
+          height: 100px;
+          border-radius: 6em;
+        }
+      }
+
+      .btn-group {
+        .btn {
+          vertical-align: middle;
+          line-height: 50px;
+          height: 50px;
+          border-radius: 12px;
+          background-color: hsl(0, 0%, 20%);
+          margin: 25px 50px;
+        }
+
+        .btn:hover {
+          background-color: hsl(75, 94%, 57%);
+          color: hsl(0, 0%, 8%);
+          font-weight: 800;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="avatar">
+        <img src="./assets/images/avatar-jessica.jpeg" alt="">
+      </div>
+      <div class="quote">
+        <h3>Jessica Randall</h3>
+        <p>London, United Kingdom</p>
+      </div>
+      <p>"Front-end developer and avid reader."</p>
+
+      <div class="btn-group">
+        <div class="btn">GitHub</div>
+        <div class="btn">Frontend Mentor</div>
+        <div class="btn">LinkedIn</div>
+        <div class="btn">Twitter</div>
+        <div class="btn">Instagram</div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">VXTW</a>.
+    </div>
+  </div>
+</body>
+
+</html>
